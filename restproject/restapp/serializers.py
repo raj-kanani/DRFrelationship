@@ -14,6 +14,7 @@ class SingerSerializer(serializers.ModelSerializer):
     # generate hyper linked for song
     # view_name in model name of (song-detail)
     # song = serializers.HyperlinkedRelatedField(many=True, read_only=True, view_name='song-detail')
+
     # slug field dispaly title in letter
     # song = serializers.SlugRelatedField(many=True, read_only=True, slug_field='title')
 
